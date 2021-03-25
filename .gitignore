@@ -1,4 +1,5 @@
 /.htaccess
+db/
 data/
 test/
 sirgle/
