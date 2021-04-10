@@ -1,0 +1,29 @@
+{
+  "name": "nail_shop",
+  "version": "0.0.1",
+  "description": "네일샵 쇼핑몰",
+  "main": "index.php",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgd122/nail_shop.git"
+  },
+  "author": "Seong Gi Dong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgd122/nail_shop/issues"
+  },
+  "homepage": "https://github.com/sgd122/nail_shop#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.16.2",
+    "eslint-plugin-php-markup": "^6.0.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.2.0"
+  }
+}
