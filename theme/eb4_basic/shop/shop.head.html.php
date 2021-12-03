@@ -24,6 +24,7 @@ $item_view = 'zoom';
 add_javascript('<script src="'.G5_JS_URL.'/owlcarousel/owl.carousel.min.js"></script>', 10);
 add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carousel.css">', 0);
 ?>
+<script src="/plugin/channel/channel.js"></script>
 
 <?php if (!$wmode) { ?>
 <div class="wrapper">
