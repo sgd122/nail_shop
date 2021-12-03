@@ -1074,12 +1074,14 @@ img.img-circle {border-radius:50% !important}
 .profile-modal .profile-photo img {height:80px;width:80px;-webkit-border-radius:50% !important;-moz-border-radius:50% !important;border-radius:50% !important;background-color:#fff;background-size:cover}
 
 /*---------- Back To Top ----------*/
-.back-to-top {z-index:1003;cursor:pointer;background:rgba(0, 0, 0, 0.9);-webkit-border-radius:50% !important;-moz-border-radius:50% !important;border-radius:50% !important;width:45px;height:45px;line-height:45px;bottom:45px;right:15px;overflow:hidden;position:fixed;display:block;text-align:center;opacity:1;-webkit-transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;transition:all 0.5s ease-in-out 0s;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}
+/* .back-to-top {z-index:1003;cursor:pointer;background:rgba(0, 0, 0, 0.9);-webkit-border-radius:50% !important;-moz-border-radius:50% !important;border-radius:50% !important;width:45px;height:45px;line-height:45px;bottom:45px;right:15px;overflow:hidden;position:fixed;display:block;text-align:center;opacity:1;-webkit-transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;transition:all 0.5s ease-in-out 0s;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)} */
+.back-to-top {z-index:1003;cursor:pointer;background:rgba(0, 0, 0, 0.9);-webkit-border-radius:50% !important;-moz-border-radius:50% !important;border-radius:50% !important;width:45px;height:45px;line-height:45px;bottom:90px;right:15px;overflow:hidden;position:fixed;display:block;text-align:center;opacity:1;-webkit-transition:all 0.5s ease-in-out 0s;-moz-transition:all 0.5s ease-in-out 0s;transition:all 0.5s ease-in-out 0s;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}
 .back-to-top.hidden-top {bottom:-100px;opacity:0;-webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);-o-transform:scale(0);transform:scale(0)}
 .back-to-top:hover {background:#86A0F7}
 .back-to-top i {font-size:16px;margin:1px 0 0 0 !important;color:#fff;display:inline-block}
 @media (max-width:767px) {
-    .back-to-top {bottom:15px}
+    .back-to-top {bottom:90px}
+    /* .back-to-top {bottom:15px} */
 }
 
 /*---------- G5 Captcha ----------*/
