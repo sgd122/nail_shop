@@ -40,13 +40,13 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carou
         <div class="container position-relative">
             <div class="topbar-left">
                 <ul class="list-unstyled left-menu">
-                    <li><a href="<?php echo G5_SHOP_URL; ?>" class="active">쇼핑몰</a></li>
+                    <!-- <li><a href="<?php echo G5_SHOP_URL; ?>" class="active">쇼핑몰</a></li> -->
                     <?php if ($eyoom['use_shop_index'] == 'n') { ?>
                     <li><a href="<?php echo G5_URL; ?>">커뮤니티</a></li>
                     <?php } ?>
                     <?php if (!G5_IS_MOBILE) { ?>
                     <li>
-                        <a id="bookmarkme" href="javascript:void(0);" rel="sidebar" title="bookmark this page">북마크</a>
+                        <!-- <a id="bookmarkme" href="javascript:void(0);" rel="sidebar" title="bookmark this page">북마크</a> -->
                         <script>
                         $(function() {
                             $("#bookmarkme").click(function() {
@@ -96,8 +96,6 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/owlcarousel/owl.carou
                             <li><a href="<?php echo G5_SHOP_URL; ?>/personalpay.php">개인결제</a></li>
                             <li><a href="<?php echo G5_SHOP_URL; ?>/itemuselist.php">사용후기</a></li>
                             <li class="divider"></li>
-                            <li><a href="<?php echo G5_BBS_URL; ?>/faq.php">FAQ</a></li>
-                            <li><a href="<?php echo G5_BBS_URL; ?>/qalist.php">1:1문의</a></li>
                             <?php if ($is_member) { // 회원일 경우 ?>
                             <li><a href="<?php echo G5_BBS_URL; ?>/member_confirm.php?url=register_form.php">회원정보수정</a></li>
                             <?php } ?>
